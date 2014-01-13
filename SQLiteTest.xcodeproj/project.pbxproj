@@ -21,6 +21,8 @@
 		D2982F8E18819F34004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982F7018819F34004E8886 /* UIKit.framework */; };
 		D2982F9618819F34004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982F9418819F34004E8886 /* InfoPlist.strings */; };
 		D2982F9818819F34004E8886 /* SQLiteTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982F9718819F34004E8886 /* SQLiteTestTests.m */; };
+		D2982FA218819F3E004E8886 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982FA118819F3E004E8886 /* libsqlite3.dylib */; };
+		D2982FA51881A79B004E8886 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982FA41881A79B004E8886 /* Movie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D2982F9318819F34004E8886 /* SQLiteTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982F9518819F34004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982F9718819F34004E8886 /* SQLiteTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteTestTests.m; sourceTree = "<group>"; };
+		D2982FA118819F3E004E8886 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D2982FA31881A79B004E8886 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		D2982FA41881A79B004E8886 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2982FA218819F3E004E8886 /* libsqlite3.dylib in Frameworks */,
 				D2982F6F18819F34004E8886 /* CoreGraphics.framework in Frameworks */,
 				D2982F7118819F34004E8886 /* UIKit.framework in Frameworks */,
 				D2982F6D18819F34004E8886 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		D2982F6B18819F34004E8886 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2982FA118819F3E004E8886 /* libsqlite3.dylib */,
 				D2982F6C18819F34004E8886 /* Foundation.framework */,
 				D2982F6E18819F34004E8886 /* CoreGraphics.framework */,
 				D2982F7018819F34004E8886 /* UIKit.framework */,
@@ -113,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				D2982F7B18819F34004E8886 /* AppDelegate.h */,
+				D2982FA31881A79B004E8886 /* Movie.h */,
+				D2982FA41881A79B004E8886 /* Movie.m */,
 				D2982F7C18819F34004E8886 /* AppDelegate.m */,
 				D2982F7E18819F34004E8886 /* Main.storyboard */,
 				D2982F8118819F34004E8886 /* ViewController.h */,
@@ -251,6 +260,7 @@
 			files = (
 				D2982F8318819F34004E8886 /* ViewController.m in Sources */,
 				D2982F7D18819F34004E8886 /* AppDelegate.m in Sources */,
+				D2982FA51881A79B004E8886 /* Movie.m in Sources */,
 				D2982F7918819F34004E8886 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
